@@ -18,31 +18,15 @@
 
                 <div class="cover-container">
 
-                    <div class="masthead clearfix">
-                        <div class="inner">
-                            <h3 class="masthead-brand">Advertising</h3>
-                            <nav>
-                                <ul class="nav masthead-nav">
-                                    <li class="active"><a href="#">Home</a></li>
-                                    <li><a href="user.php">Users</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+                <?php include 'header.php'?>
 
                     <div class="inner cover">
-                        <h1 class="cover-heading">Welcome to the Umbrella Corp.</h1>
-                        <p class="lead"> kopaj kopaj kopaj  </p>
-                        <p class="lead">
-                        <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
-                        <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
-                            <a href="advertisement.php" class="btn btn-lg btn-default">Login</a>
-                        </p>
+                        <h1 class="cover-heading">Welcome to Umbrella Corp.</h1>
                     </div>
 
                     <div class="mastfoot">
                         <div class="inner">
-                            <p>10 Emelet, for Kopaj 2017 - Umbrella Corp.</a>.</p>
+                            <p>10 Emelet, for Kopaj 2017 - Umbrella Corp.</a></p>
                         </div>
                     </div>
                 </div>
