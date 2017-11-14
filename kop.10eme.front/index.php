@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Advertising RabIT</title>
+        <title>10 Emelet</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="./css/cover.css" rel="stylesheet">
 
@@ -20,7 +20,7 @@
 
                     <div class="masthead clearfix">
                         <div class="inner">
-                            <h3 class="masthead-brand">Advertising - A RabIT Project</h3>
+                            <h3 class="masthead-brand">Advertising</h3>
                             <nav>
                                 <ul class="nav masthead-nav">
                                     <li class="active"><a href="#">Home</a></li>
@@ -41,7 +41,7 @@
 
                     <div class="mastfoot">
                         <div class="inner">
-                            <p>José Vicente Egas López, for <a href="https://rabit.hu">RabIT - Software Engineering</a>.</p>
+                            <p>10 Emelet, for Kopaj 2017 - Umbrella Corp.</a>.</p>
                         </div>
                     </div>
                 </div>
