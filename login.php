@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['usr_id'])!="") {
+if(isset($_SESSION['u_id'])!="") {
 	header("Location: index.php");
 }
 include_once 'mysqli_connection.php';
@@ -14,8 +14,8 @@ if (isset($_POST['login'])) {
 	$result1 = mysqli_query($con, "SELECT * FROM user WHERE u_name = '" . $name. "' and u_password = '" . sha1($password) . "'");
 
 	if ($row = mysqli_fetch_array($result1)) {
-		$_SESSION['usr_id'] = $row['id'];
-		$_SESSION['usr_name'] = $row['name'];
+		$_SESSION['u_id'] = $row['id'];
+		$_SESSION['u_name'] = $row['name'];
 		header("Location: index.php");
 	} else {
 		$errormsg = "Incorrect Name or Password!!!";
