@@ -25,17 +25,18 @@
                                 <ul class="nav masthead-nav">
                                     <li class="active"><a href="#">Home</a></li>
                                     <li><a href="user.php">Users</a></li>
-                                    <li><a href="advertisement.php">Advertisements</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="inner cover">
-                        <h1 class="cover-heading">Welcome to the simple advertising web.</h1>
-                        <p class="lead"> Here you can check the registered users and their corresponding advertisements.  </p>
+                        <h1 class="cover-heading">Welcome to the Umbrella Corp.</h1>
+                        <p class="lead"> kopaj kopaj kopaj  </p>
                         <p class="lead">
-                            <a href="advertisement.php" class="btn btn-lg btn-default">Lead me to Advertisements!</a>
+                        <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
+                        <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
+                            <a href="advertisement.php" class="btn btn-lg btn-default">Login</a>
                         </p>
                     </div>
 
